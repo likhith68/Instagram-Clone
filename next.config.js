@@ -1,6 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
+    reactStrictMode: true,
 }
 
-module.exports = nextConfig
+module.exports = {
+    nextConfig,
+    images: {
+        domains: ['telanganatoday.com', 'upload.wikimedia.org', 'cdn-icons-png.flaticon.com', 'cdn.shopify.com'],
+    },
+}
