@@ -1,3 +1,12 @@
+# Instagram-Clone using Next JS , Firebase and Vercel
+
+The App has Login,Post,Like,Comment and SignOut features.
+It is identical to Instagram App. For Login, Next Auth with Google Authentication is Used.Cloud Firestore and Firebase Storage are used for Database .The App is Deployed Using Vercel. 
+
+## Deployed this Project :)
+Check out the <a href="https://instagram-clone-six-neon.vercel.app/">LIVE DEMO</a>
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
