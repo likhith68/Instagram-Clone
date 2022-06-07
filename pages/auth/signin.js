@@ -15,9 +15,10 @@ function signIn({ providers }) {
           alt=""
         />
         <p className="ml-4 font-xs italic">
-          Instagram Clone -- Built For Educational Purposes Only
+          Instagram Clone--Built For Educational Purposes Only{" "}
         </p>
         <div className="mt-20">
+          {" "}
           {Object.values(providers).map((provider) => (
             <div key={provider.name}>
               <Button
@@ -26,12 +27,12 @@ function signIn({ providers }) {
                   SignIntoProvider(provider.id, { callbackUrl: "/" })
                 }
               >
-                Sign in with {provider.name}
-              </Button>
+                Sign in with {provider.name}{" "}
+              </Button>{" "}
             </div>
-          ))}
-        </div>
-      </div>
+          ))}{" "}
+        </div>{" "}
+      </div>{" "}
     </>
   );
 }
